@@ -1,0 +1,47 @@
+.logo {
+    height: 5rem;
+    aspect-ratio: 1/1;
+    border: 3px solid rgb(238, 238, 238);
+    border-radius: 50%;
+}
+
+.img-start {
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.img-start img {
+    width: 100%;
+    position: relative;
+}
+
+.flayer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .flayer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .flayer img:hover {
+    transform: scale(1.05);
+    transition: transform .5s ease;
+
+  }
+  
+
+  .navbar-show {
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .navbar {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  
