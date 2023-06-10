@@ -1,0 +1,86 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(./Imagenes/bar-1713610_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+
+/* Presentación */
+
+.contenedor-presentacion{
+  width: 700px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.presentacion-principal {
+  position: relative;
+  width: 500px;
+  height: 600px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+}
+
+.presentacion-principal:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .4);
+  border-radius: 20px;
+}
+
+.presentacion-transparente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+
+/* Separador promocional */
+
+.separador-logo-promocional {
+  margin-top: 181px;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+/* Menu */
+
+.contenedor-menu {
+  background-image: url(./Imagenes/Menu/bgi.jpg);
+}
+
+
+.menu1 {
+  height: 950px;
+  object-fit: contain;
+  margin-left: 160px;
+}
+
+.menu2 {
+  height: 950px;
+  object-fit: contain;
+}
