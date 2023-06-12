@@ -47,6 +47,32 @@ nav div a {
 }
 
 
+footer {
+  background-color: black;
+  width: 100%;
+  height: 5rem;
+  position: relative;
+  align-items: center;
+
+}
+.iconos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 7rem;
+  height: 100%;
+}
+
+.iconos a{
+  color: white;
+  font-size: 3rem;
+}
+.iconos a i:hover {
+  color: rgb(255, 123, 0);
+  transition: color 1s ease;
+  filter: drop-shadow(20px);
+}
+
   /* Responsive */
 @media (max-width: 768px) {
 
@@ -58,4 +84,5 @@ nav div a {
       height: 10vh;
   }
   }
+  
   
