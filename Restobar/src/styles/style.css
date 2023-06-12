@@ -1,0 +1,69 @@
+
+/* Navbar */
+
+nav div a {
+    height: 13vh;
+    position: relative;
+}
+
+.logo {
+    height: 20vh;
+    width: auto;
+    position: absolute;
+    top: 40%;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white !important;
+  }
+
+  /* Body */
+.fondo {
+  background-image: url('../img/the-old-vintage-black-brick-wall-background-with-lighting-decoration-and-dark-tone-style-for-background-design-concept-free-photo.jpg');
+  background-size: cover;
+}
+
+.video {
+  border: 5px solid black;
+  border-radius: 20px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.textos-iconos {
+  color: white;
+  padding: 10%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+  .logo {
+    top: 30%;
+    height: 17vh;
+  }
+  nav div a {
+    height: 10vh;
+}
+}
+
+  
+  
+  
+  
+  
+  
+  
+
+

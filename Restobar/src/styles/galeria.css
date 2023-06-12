@@ -1,0 +1,61 @@
+
+/* Navbar */
+
+nav div a {
+    height: 13vh;
+    position: relative;
+}
+
+.logo {
+    height: 20vh;
+    width: auto;
+    position: absolute;
+    top: 40%;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white !important;
+  }
+
+  /* Galeria */
+
+  .gallery__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 20rem;
+    padding: 20px;
+    grid-gap: 2rem;
+
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+  /* Responsive */
+@media (max-width: 768px) {
+
+    .logo {
+      top: 30%;
+      height: 17vh;
+    }
+    nav div a {
+      height: 10vh;
+  }
+  }
+  
