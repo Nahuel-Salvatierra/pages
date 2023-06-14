@@ -70,17 +70,50 @@ body {
 /* Menu */
 
 .contenedor-menu {
-  background-image: url(./Imagenes/Menu/bgi.jpg);
+  background-image: url(./Imagenes/Menu/fondo6.jpg);
+  background-position: -133px 0px;
+  background-attachment: fixed;
 }
 
 
-.menu1 {
+/* Apertura/Cierre */
+
+.apertura-fondo {
+  background-image: url(./Imagenes/fondo-apertura.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color: white;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .menu1 {
   height: 950px;
   object-fit: contain;
   margin-left: 160px;
-}
+}                                                 PARA EL OTRO RESTO
 
 .menu2 {
   height: 950px;
   object-fit: contain;
-}
+} */
