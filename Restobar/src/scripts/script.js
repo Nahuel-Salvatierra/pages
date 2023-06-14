@@ -12,12 +12,12 @@ home.addEventListener('click', ()=> {
 
 
 
-//   document.addEventListener('DOMContentLoaded', function() {
-//     var video = document.getElementById("miVideo");
-//     video.play();
+  document.addEventListener('DOMContentLoaded', function() {
+    var video = document.getElementById("miVideo");
+    video.play();
 
-//     video.addEventListener('ended', function() {
-//       video.currentTime = 0;
-//       video.play();
-//     });
-//   });
+    video.addEventListener('ended', function() {
+      video.currentTime = 0;
+      video.play();
+    });
+  });

@@ -1,5 +1,10 @@
 
 /* Navbar */
+
+.navbar {
+  background-color: rgb(7, 7, 7);
+}
+
 nav div a {
     height: 13vh;
     position: relative;
@@ -27,6 +32,8 @@ nav div a {
     color: white !important;
   }
 
+
+
   /* Body */
 .fondo {
   background-image: url('../img/the-old-vintage-black-brick-wall-background-with-lighting-decoration-and-dark-tone-style-for-background-design-concept-free-photo.jpg');
@@ -39,33 +46,73 @@ nav div a {
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
-
+* {
+  box-sizing: border-box;
+}
 .textos-iconos {
   color: white;
   padding: 10%;
 }
 
+.container-img  {
+  display: flex;
+  position: relative;
+}
+.container-img img{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: -1;
+}
+.textos {
+  z-index: 2;
+  position: absolute;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  backdrop-filter: blur(8px);
+  border-radius: 3px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 10px rgb(136, 133, 133)
+}
+
+.textos p {
+  color: white;
+  opacity: 1;
+}
+.textos h1 {
+  color: yellow;
+}
+.textos h2 {
+  color: white;
+  background-color: red;
+  border-radius: 20px;
+  padding: 0 1rem;
+  width: fit-content;
+}
+
 /* Footer */
 
 footer {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
-  height: 5rem;
-  position: relative;
-  align-items: center;
-
+  height: 3rem;
+  position: fixed;
+  bottom:0;
+  z-index: 3;
 }
 .iconos {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 7rem;
+  padding: 0 10rem;
   height: 100%;
 }
 
 .iconos a{
   color: white;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .iconos a i:hover {
   color: rgb(255, 123, 0);
