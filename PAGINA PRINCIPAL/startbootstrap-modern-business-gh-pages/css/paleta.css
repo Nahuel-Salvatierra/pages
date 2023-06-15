@@ -1,5 +1,15 @@
-.color1 { color:#0d0f36 }
-.color2 { color:#294380 }
-.color3 { color:#69d2cd }
-.color4 { color:#b9f1d6 }
-.color5 { color:#f1f6ce } 
+.paleta2 {
+    color: #373739;
+    color: #19191a;
+    color: #020202;
+    color: #60e4ea;
+    color: #9ae5f3;
+}
+
+.paleta1 {
+    color:#0d0f36;
+    color:#294380;
+    color:#69d2cd;
+    color:#b9f1d6;
+    color:#f1f6ce;
+}
