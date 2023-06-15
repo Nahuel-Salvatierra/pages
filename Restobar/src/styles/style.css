@@ -35,17 +35,28 @@ nav div a {
 
 
   /* Body */
+
+
+
 .fondo {
   background-image: url('../img/the-old-vintage-black-brick-wall-background-with-lighting-decoration-and-dark-tone-style-for-background-design-concept-free-photo.jpg');
   background-size: cover;
 }
 
-.video {
-  border: 5px solid black;
-  border-radius: 20px;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+.promo-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 20px;
+  padding: 3rem 0;
 }
+
+.promo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
 * {
   box-sizing: border-box;
 }
