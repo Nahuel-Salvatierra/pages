@@ -191,8 +191,7 @@ const submitErrorMessage = document.getElementById('submitErrorMessage');
 
 function registrarUsuario() {
   const formData = new FormData(contactForm);
-
-  fetch('https:// ', {
+  fetch('http://localhost:3000/login ', {
     method: 'POST',
     body: formData
   })
