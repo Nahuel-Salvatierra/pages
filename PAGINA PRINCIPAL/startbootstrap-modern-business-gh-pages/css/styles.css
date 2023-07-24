@@ -50,7 +50,7 @@
     height: 100%;
     width: 250px;
     padding: 10px 14px;
-    z-index: 1;
+    z-index: 2;
     background: var(--sidebar-color);
     transition: var(--tran-04) !important;
     opacity: 1;
@@ -67,6 +67,31 @@
 
   .sidebar.close .texto{
     opacity: 0;
+  }
+
+  .animacion-plantilla-main {
+    position: relative;
+    left: 250px;
+    width: calc(100% - 250px);
+    transition: var(--tran-04);
+  }
+
+  .animacion-plantilla-footer {
+    position: relative;
+    left: 250px;
+    width: 100%;
+    transition: var(--tran-04);
+  }
+  
+
+  .sidebar.close ~ .animacion-plantilla-main {
+    left: 84px;
+    width: calc(100% - 88px);
+  }
+
+  .sidebar.close ~ .animacion-plantilla-footer {
+    left: 84px;
+    width: calc(100% - 88px);
   }
 
   .sidebar .texto-titulo {
