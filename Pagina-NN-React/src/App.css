@@ -1,0 +1,14 @@
+#root {
+  text-decoration: none;
+}
+
+.bg-morado {
+  --bs-bg-opacity: 1;
+  /* background-color: #20115B */
+  background-color: #20115B
+}
+
+.btn.btn-violeta {
+  --bs-bg-opacity: 1;
+  background-color: #7232F2 ;
+}
