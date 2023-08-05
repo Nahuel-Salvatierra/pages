@@ -7,6 +7,7 @@ import Nav from './componentes/Nav';
 import Presentacion from './Secciones/Presentacion';
 import Beneficios from './Secciones/Beneficios';
 import PlantillaDestacada from './Secciones/PlantillaDestacada';
+import Footer from './componentes/Footer';
 
 function App() {
     return (
@@ -22,6 +23,8 @@ function App() {
                 <Beneficios />
                 {/* Seccion de Plantillas Destacadas */}
                 <PlantillaDestacada />
+                {/* Footer */}
+                <Footer />
             </main>
         </>
     );

@@ -28,7 +28,7 @@ function Presentacion() {
                                 objetivo.</p>
                             <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start ">
                                 <Boton nombreBoton="Obtener Aqui" onClick={botonObtenerAqui} className="btn-lg px-4"/>
-                                <Boton nombreBoton="leer más" onClick={botonLeerMas} className="botonLeerMas btn-lg px-4" />
+                                <Boton nombreBoton="Leer Más" onClick={botonLeerMas} className="botonLeerMas btn-lg px-4" />
                             </div>
                         </div>
                     </div>
