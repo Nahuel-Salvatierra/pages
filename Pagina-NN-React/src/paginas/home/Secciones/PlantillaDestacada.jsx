@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import '../css/PlantillaDestacada.css';
-import Cards from '../componentes/Cards';
-import Boton from '../componentes/Boton';
+import '../Home.css';
+import Cards from '../../../componentes/Footer';
+import Boton from '../../../componentes/Boton';
 
 function PlantillaDestacada() {
 

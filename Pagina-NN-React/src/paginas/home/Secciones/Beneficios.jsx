@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/Beneficios.css'
+import '../Home.css'
 
 function Beneficios() {
     return (

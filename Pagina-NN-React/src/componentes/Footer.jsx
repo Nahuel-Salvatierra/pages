@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
     return (
-        <footer className="bg-morado py-4 mt-auto">
+        <footer className="bg-morado py-4 mt-auto footer">
             <div className="container px-5">
                 <div className="row align-items-start justify-content-start flex-column flex-sm-row">
                     <div className="col-sm-12 col-md-2">

@@ -1,9 +1,9 @@
 import React from 'react';
-import '../css/Presentacion.css';
-import imagen1 from '../imagenes/composicion-aislada-tablet-laptop-smartphone/no-picture.png';
-import imagen2 from '../imagenes/composicion-aislada-tablet-laptop-smartphone/no-picture.png';
-import imagen3 from '../imagenes/composicion-aislada-tablet-laptop-smartphone/no-picture.png';
-import Boton from '../componentes/Boton';
+import '../Home.css';
+import imagen1 from '../../../imagenes/composicion-aislada-tablet-laptop-smartphone/no-picture.png';
+import imagen2 from '../../../imagenes/composicion-aislada-tablet-laptop-smartphone/no-picture.png';
+import imagen3 from '../../../imagenes/composicion-aislada-tablet-laptop-smartphone/no-picture.png';
+import Boton from '../../../componentes/Boton';
 
 function Presentacion() {
 
@@ -16,7 +16,7 @@ function Presentacion() {
 
 
     return (
-        <header className="bg-morado py-5">
+        <header className="bg-morado py-5 presentacion">
             <div className="container px-5">
                 <div className="row gx-5 align-items-center justify-content-center">
                     <div className="col-lg-8 col-xl-7 col-xxl-6">
